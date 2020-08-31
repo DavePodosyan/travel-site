@@ -8,6 +8,7 @@ if (module.hot) {
     module.hot.accept();
 }
 
+
 new MobileMenu();
 new StickyHeader();
 new RevealOnScroll(document.querySelectorAll('.feature-item'), 75);
